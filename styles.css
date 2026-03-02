@@ -1,0 +1,186 @@
+.announcements-page {
+  background-color: #a6e5ff;
+  font-family: sans-serif;
+}
+
+h1 {
+  letter-spacing: 2px;
+  font-style: italic;
+}
+
+.contact {
+  color: yellow;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+.Text {
+  font-size: 13;
+  font-style: italic;
+  text-align: center;
+}
+
+h3 {
+  text-decoration: overline;
+  letter-spacing: 2px;
+  font-size: clamp(1rem, 2vw, 2rem);
+  font-family:'Times New Roman', Times, serif
+}
+
+.services {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.h3 {
+  text-align: center;
+  text-decoration: none;
+}
+
+hr {
+  color: black;
+  border-style: dashed;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%
+}
+
+.eric {
+  width: 100%;
+  height:auto;
+}
+
+.panel {
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar {
+  background-color: #00b5ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.nav-bar_link {
+  font-size: 20px;
+  padding: 7px;
+}
+
+.nav-bar_link:link {
+  color: yellow;
+  background-color: #d3beff;
+  border-style: outset;
+  border-color: hotpink;
+  border-radius: 10px;
+  border-width: 5px;
+}
+
+.nav-bar_link:hover {
+  color: #0087ff;
+  background-color: #c5ffec;
+  border-style: outset;
+  border-color: mediumpurple;
+  border-radius: 10px;
+  border-width: 5px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.citations {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  font-family: italic;
+  justify-content: center;
+}
+
+.nav-bar_link:active {
+  color: #ac00ff;
+  background-color: #89c3ff;
+  border-style: outset;
+  border-color: hotpink;
+  border-radius: 10px;
+  border-width: 5px;
+}
+
+.letters-container {
+  background-color: #00b5ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 7px;
+  text-align: center;
+  height: 100px;
+}
+
+.newsletters {
+  padding: 7px;
+  font-size: 20px;
+  text-align:center;
+  width: 95px;
+}
+
+.newsletters:link {
+  color: yellow;
+  background-color: #d3beff;
+  border-style: outset;
+  border-color: hotpink;
+  border-radius: 10px;
+  border-width: 5px;
+}
+
+.newsletters:hover {
+  color: #0087ff;
+  background-color: #c5ffec;
+  border-style: outset;
+  border-color: mediumpurple;
+  border-radius: 10px;
+  border-width: 5px;
+  font-size: 25px;
+  width: 125px;
+  font-weight: bolder;
+}
+
+.middle {
+  text-align: center;
+}
+
+.newsletters:active {
+  color: #ac00ff;
+  background-color: #89c3ff;
+  border-style: outset;
+  border-color: hotpink;
+  border-radius: 10px;
+  border-width: 5px;
+}
+
+/*Controls how Audrey's name appears at the bottom of the webpage*/
+.author {
+  text-align: right; 
+  text-decoration: overline;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+/*Paragraph style*/
+p {
+  color:#0000db;
+}
+
+.ian2 {
+  width: 100%;
+  height: auto;
+}
